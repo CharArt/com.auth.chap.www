@@ -1,0 +1,59 @@
+.lev25-log{
+	display: flex;
+	/*border: solid black;*/
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-family: Calibri, fantasy;
+	font-size: 25px;
+}
+.field-log{
+	width:90%;
+	display: inline-block;
+	/*border: solid #ccc;*/
+	border-radius: 12px;
+	box-sizing: border-box;
+	margin: 1% 5%;
+	padding:1%;
+	font-family: Calibri, fantasy;
+	font-size: 80%;
+}
+
+.field-reg{
+	width:90%;
+	height:40%
+	display:inline-block;
+	border:solid #ccc;
+	border-radius:12px;
+	box-sizing:border-box;
+	margin:1% 5%;
+	padding:1%;
+	font-family:Calibri, fantasy;
+	font-size:65%;
+}
+
+.field-search{
+	width:100%;
+	background-color: white;
+	display:inline-block;
+	border:solid #ccc;
+	border-radius:12px;
+	box-sizing:border-box;
+	padding:1%;
+	font-size:80%;
+	text-align: left;
+}
+
+.field-rerError{
+	width:90%;
+	height:40%
+	display:inline-block;
+	border:solid #ccc;
+	border-radius:12px;
+	box-sizing:border-box;
+	margin:1% 5%;
+	padding:1%;
+	font-family:Calibri, fantasy;
+	font-size:65%;
+	background-color: #FF7F50;
+}
