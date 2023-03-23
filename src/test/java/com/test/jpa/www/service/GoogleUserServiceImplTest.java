@@ -24,12 +24,12 @@ class GoogleUserServiceImplTest {
 
     @Test
     void findGoogleUserByIdTest() {
-        System.out.println(service.findGoogleUserById(1L).toString());
+        System.out.println(service.findGoogleUserById(20L).toString());
     }
 
     @Test
     void findUserByNameAndSurnameAndEmailTest() {
-        System.out.println(service.findUserByNameAndSurnameAndEmail("Artem", "Charykov", "charartpav@gmail.com"));
+        System.out.println(service.findUserByNameAndSurnameAndEmail("Artoym", "Charykov", "charartpav@gmail.com"));
     }
 
     @Test

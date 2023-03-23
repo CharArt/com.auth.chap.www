@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:sqlserver://db:1433;DatabaseName=AuthenticationApplication;encrypt=true;trustServerCertificate=true
+    ports:
+      - "8000:8080"
+    depends_on:
+      - db
+    restart: always
+    links:
+      - "db:localhost"
+  db:
+    image: charartpav/myserver
+    container_name: db
+    restart: always
